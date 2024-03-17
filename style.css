@@ -1,0 +1,733 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+
+* {
+    font-family: "Raleway";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.findYourDreamHomeContainer {
+    /* border: 1px solid violet; */
+
+    background-image: url(images/fydhBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    padding-bottom: 14%;
+
+}
+
+.fydhInnerSide {
+    padding-left: 13%;
+    padding-right: 13%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fydhLogo {
+    margin-top: 1%;
+}
+
+
+.fydhNavbar,
+.fydhNavbarItems {
+    display: flex;
+    /* border: 1px solid pink; */
+}
+
+.fydhNavbar {
+    margin-top: 1%;
+}
+
+.fydhNavbarItems {
+    padding-left: 10%;
+}
+
+.fydhNavbarItems li {
+
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+.homeItem {
+    padding-left: 5%;
+}
+
+.paddingItems {
+    padding-left: 13%;
+}
+
+.fydhContent {
+    padding-bottom: 5%;
+}
+
+
+
+
+.fydhHeading {
+    padding-top: 8%;
+    font-size: 70px;
+    line-height: 89px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.fydhText {
+    padding-top: 2%;
+    width: 62%;
+    font-size: 22px;
+    line-height: 39px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+
+.fydhBuyRentInvestments {
+    display: flex;
+
+}
+
+input {
+    padding: 1%;
+}
+
+
+.callNowLogo {
+    color: white;
+    padding: 2%;
+    background-color: #3278ff;
+    display: flex;
+    margin-left: 14%;
+}
+
+.textandnumber {
+    display: flex;
+    flex-direction: column;
+}
+
+.cnlText {
+    margin-bottom: 2%;
+}
+
+
+.fydhBuy {
+    background-color: white;
+    padding: 1% 4%;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #3278ff;
+    font-weight: 700;
+    font-family: "Raleway"
+}
+
+.fydhRent,
+.fydhInvestments {
+    background-color: #9cb1ca;
+    padding: 1% 3%;
+    border-radius: 8px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #262728;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin-left: 1%;
+}
+
+
+.fydhSearchBar {
+    background-color: white;
+    width: 75.5%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    border-radius: 5px;
+    display: flex;
+
+}
+
+
+input,
+select {
+    border: none;
+    border-right: 1px solid #bdbebf;
+    font-weight: 600;
+}
+
+select {
+    font-weight: 600;
+    padding-left: 3%;
+    padding-right: 3%;
+    letter-spacing: 1px;
+}
+
+.set {
+    padding-top: 2%;
+    padding-left: 5%;
+    width: 4%;
+    height: 4%;
+}
+
+.searchButton img {
+    margin-right: 10px;
+
+}
+
+.searchButton {
+    margin-left: 8%;
+    border: none;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 2% 4%;
+    background-color: #3278ff;
+    border-radius: 5px;
+
+}
+
+
+/* --------------------------------------------------Second Part----------------------------- */
+
+.superDeluxMansionContainer {
+    padding-top: 10%;
+
+}
+
+.sdmInside {
+    /* border: 1px solid green; */
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 10%;
+
+    display: flex;
+}
+
+.sdmLeft {
+    /* border: 1px solid pink; */
+    display: flex;
+    position: relative;
+}
+
+.sdmRight {
+    padding-left: 5%;
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+
+
+.sdmHeadLine {
+    font-size: 19px;
+    line-height: 38px;
+    color: #3278ff;
+    font-weight: 700;
+    font-family: "Raleway";
+    font-style: italic;
+}
+
+.sdmHeading {
+    font-size: 48px;
+    line-height: 65px;
+    color: #2e374a;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.sdmText {
+    padding-top: 5%;
+    width: 572px;
+    height: 119px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #838891;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.beachImage {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.beachImage img {
+    width: 16rem;
+}
+
+.treeImage {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-left: 4%;
+}
+
+.treeImage img {
+    width: 16rem;
+}
+
+.threeImages {
+    padding-top: 7%;
+    display: flex;
+    flex-direction: row;
+}
+
+.threeImages img {
+    box-shadow: 1px 1px 5px rgb(160, 159, 159, 0.6);
+}
+
+.personHome img {
+    border-radius: 5px;
+    padding: 30% 40%;
+}
+
+.personSvg img,
+.buildingImage img {
+    border-radius: 5px;
+    padding: 90% 120%;
+}
+
+
+.personSvg {
+    margin-left: 6rem;
+}
+
+.buildingImage {
+    margin-left: 8rem;
+}
+
+
+.priceImage {
+    background-color: white;
+    position: absolute;
+    box-shadow: 1px 1px 5px rgb(160, 159, 159, 0.6);
+    bottom: 3rem;
+    left: 8rem;
+    width: 13rem;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.priceImage button {
+    border: none;
+    padding: 10%;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3278ff;
+}
+
+
+
+
+/* --------------------------------------------------Third Part------------------------------------------------------- */
+
+.latestPropertiesContainer {
+    /* border: 2px solid pink; */
+    padding: 5% 0%;
+    background-color: #f4f4f4;
+}
+
+.lpInside {
+    padding-left: 13%;
+    padding-right: 13%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lpSmallHeading {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #3278ff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.lpMainHeading {
+    font-size: 60px;
+    line-height: 36px;
+    color: #253459;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-top: 1%;
+}
+
+
+.lpCards {
+    /* border: 1px solid blue; */
+    display: flex;
+    padding-top: 4%;
+}
+
+.lpFirstCard,
+.lpSecondCard,
+.lpThirdCard {
+    position: relative;
+    box-shadow: 1px 1px 5px rgb(160, 159, 159, 0.6);
+    /* border: 2px solid blue; */
+}
+
+
+.lpSecondCard,
+.lpThirdCard {
+    margin-left: 2%;
+}
+
+
+
+
+
+.lpHot,
+.lpForSale,
+.lpRating {
+    position: absolute;
+    background-color: white;
+    padding: 1% 3%;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.lpHot {
+    color: #3278ff;
+
+    left: 7%;
+    top: 7%;
+}
+
+.lpForSale {
+    color: #3278ff;
+    left: 25%;
+    top: 7%;
+}
+
+.lpRating {
+    background-color: #3278ff;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 3% 4%;
+    left: 6%;
+    bottom: 50%;
+}
+
+.lpStars {
+    position: absolute;
+    left: 25%;
+    bottom: 53%;
+}
+
+.comment {
+    color: white;
+    position: absolute;
+    left: 25%;
+    bottom: 50%;
+}
+
+
+.lpFirstCardBelow {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+
+.lpCardsHeading {
+    font-size: 20px;
+    line-height: 30px;
+    color: #222222;
+    font-weight: 700;
+
+}
+
+
+.lpcardText {
+    padding-top: 2%;
+}
+
+
+.lpAvailable img {
+    width: 90%;
+}
+
+.cardAvailbility {
+    display: flex;
+}
+
+.bedAvailable,
+.bathroomAvailable,
+.garageAvailable {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 1% 3%;
+}
+
+.bathroomAvailable,
+.garageAvailable {
+    margin-left: 5%;
+}
+
+.managerAndPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceDetails {
+    color: #3278ff;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.managerDetails {
+    display: flex;
+}
+
+
+
+
+/* -------------------------------------------------Fourth Part-------------------------------------------------- */
+
+
+.resInside {
+    padding: 5% 13%;
+    background-image: url(images/realstatebackground.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+
+.resLeft {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+
+}
+
+.resHeadLine {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.resMainHeading {
+    font-size: 60px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    width: 90%;
+}
+
+.resLeft button {
+    background-color: #3278ff;
+    margin-top: 3%;
+    font-size: 20px;
+    width: 40%;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 3% 2%;
+}
+
+.resLeft img {
+    position: absolute;
+    left: 60%;
+    bottom: 15%;
+    width: 20%;
+}
+
+.resRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+
+}
+
+.resUpper,
+.resUpperTwo {
+    display: flex;
+
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+
+
+/* .resUpperText span {
+    margin-left: 12%;
+} */
+
+
+
+
+
+.resUpper span,
+.resUpperTwo span {
+    color: white;
+    font-size: 17px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+
+
+
+
+.resFirstUpper,
+.resSecondUpper,
+.resThirdUpper,
+.resFourthUpper {
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8.5%;
+}
+
+
+
+
+
+
+/* -------------------------------------------------Fifth Part------------------------------------------------------- */
+.latestNewsContainer {
+    /* border: 2px solid palevioletred; */
+    background-color: #f4f4f4;
+}
+
+.lnInside {
+    /* border: 1px solid red; */
+    padding-left: 10%;
+    padding-right: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.lnHeadLine {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #3278ff;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 2%;
+}
+
+.lnHeading {
+    font-size: 60px;
+    line-height: 36px;
+    color: #2e374a;
+    font-weight: 700;
+    font-family: "Raleway";
+    padding-bottom: 3%;
+}
+
+.newsCards {
+    /* border: 1px solid blue; */
+    display: flex;
+}
+
+.firstNewsCard {
+    margin-left: 2%;
+    box-shadow: 1px 1px 5px rgb(160, 159, 159, 0.6);
+}
+
+.lnBelow {
+    padding-left: 5%;
+}
+
+
+.lnBelowSecondLine {
+    width: 90%;
+}
+
+
+
+/* ----------------------------------------------------------Footer--------------------------------------------------- */
+
+.footerInside {
+    padding: 3% 13%;
+}
+
+.footerContent li {
+    list-style: none;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #647c8f;
+    font-weight: 500;
+    font-family: "Raleway";
+}
+
+.footerContent span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #3c3f44;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.footerContent {
+    display: flex;
+}
+
+.sectionSecond,
+.sectionThird,
+.sectionFourth {
+    margin-left: 13%;
+}
+
+.ssContent,
+.stContent {
+    margin-top: 10%;
+}
+
+
+/* --------------------------------------------------------Copy Right------------------------------------------------- */
+.copyRight {
+    background-color: #3278ff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    text-align: center;
+}
