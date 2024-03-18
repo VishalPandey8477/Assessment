@@ -12,6 +12,10 @@ body {
 }
 
 
+.mobileNavbar, .fydhPhoto {
+    display: none;
+}
+
 
 .findYourDreamHomeContainer {
     /* border: 1px solid violet; */
