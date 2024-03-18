@@ -405,6 +405,10 @@ select {
     /* border: 2px solid blue; */
 }
 
+.lpFirstCardUpper img{
+    width:100%;
+}
+
 
 .lpSecondCard,
 .lpThirdCard {
