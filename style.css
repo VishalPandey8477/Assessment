@@ -72,6 +72,14 @@ body {
     justify-content: center;
     list-style: none;
     padding: 0;
+    /* border: 1px solid green; */
+    /* background-color: #3278ff; */
+}
+
+.fydhNavbarItems li:hover {
+    background-color: #3278ff;
+
+
 }
 
 .homeItem {
@@ -408,14 +416,14 @@ select {
     /* border: 2px solid blue; */
 }
 
-.lpFirstCardUpper img{
-    width:100%;
-}
-
 
 .lpSecondCard,
 .lpThirdCard {
     margin-left: 2%;
+}
+
+.lpFirstCardUpper img {
+    width: 100%;
 }
 
 
@@ -721,6 +729,13 @@ select {
 .ssContent,
 .stContent {
     margin-top: 10%;
+}
+
+.sectionFourth {
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .sectionFourthforMobile {
