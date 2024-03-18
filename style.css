@@ -72,8 +72,6 @@ body {
     justify-content: center;
     list-style: none;
     padding: 0;
-    border: 1px solid green;
-    background-color: #3278ff;
 }
 
 .fydhNavbarItems li:hover {
